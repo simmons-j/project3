@@ -14,7 +14,7 @@ public class RestartServlet extends HttpServlet {
 
 	public RestartServlet() {
 	}
-
+	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		HttpSession session = request.getSession();
